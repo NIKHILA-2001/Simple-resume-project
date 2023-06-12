@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandhrika</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+        .title-container{
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+                font-size: 40px;
+        }
+        .dec-word{
+                font-size: 20px;
+            }
+        .title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+
+        }
+        .sub-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .para{
+            width:60%;
+        }
+        .dec-word{
+            margin-top:0;
+        }
+        .my-img{
+            border-radius: 100%;
+            margin: 10px;
+            background-color: rgb(255, 254, 253);
+            width:40%
+        }
+        .footer-con{
+            display:flex;
+            justify-content: space-around;
+        }
+        .contact{
+            display:flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .c{
+            padding:10px;
+        }
+        .img2{
+            padding-top: 15px;
+            width:70%;
+        }
+        @media (max-width:600px) {
+            h1{
+                font-size: 26px;
+            }
+            .dec-word{
+                font-size: 15px;
+            }
+            .my-img{
+                width:50%;
+            }
+            .para{
+                width:90%;
+            }
+            .footer-con{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <div class="title">
+            <h1 class="name">KARRI <b>CHANDHRIKA</b></h1>
+            <p class="dec-word">A PROGRAMMER</p>  
+        </div>
+        <div>
+            <img class="my-img" src="./my-img.png" alt="image">
+        </div>
+    </div>
+
+    <h2 style="margin-bottom: 0;">Profile </h2>
+    <hr style="color: black; width:80%;">
+    <section class="profile sub-title">
+        <p class="para">I am an engineering graduate, currently working in a start-up at Hyderabad.
+            I have experience coding in Python,C,C++ languages and currently working on web development.</p>
+    </section>
+
+    <h2 style="margin-bottom: 0;">Projects</h2>
+    <hr style="color: black; width:80%;">
+    <div>
+        <a class="projectlink" href="https://nikhila-2001.github.io/TinDong-Website/">
+            <img class="img2" src="./tindogProject.png" alt="TinDog project"></a>
+        <p>TinDog Website</p>
+        <img class="img2" src="./MoveItproject.png" alt="Move It project">
+        <p>Move It project</p>
+    </div>
+
+    <hr style="color: black; margin-top: 50px;">
+    <footer class="footer-con">
+        <p>© 2023 Chandhrika Karri</p>
+        <div class="contact">
+            <p class="c" style="margin:0">chandhrikakarri@gmail.com</p>
+            <p class="c" style="margin:0">6301454464</p>
+            <a class="c" href="https://github.com/NIKHILA-2001">Github</a>
+            <a class="c" href="https://www.linkedin.com/in/karri-nikhila-859b5a1b0/">LinkedIn</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
